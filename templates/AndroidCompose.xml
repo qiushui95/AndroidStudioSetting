@@ -1,0 +1,9 @@
+<templateSet group="AndroidCompose">
+  <template name="compstate" value="@androidx.compose.runtime.Composable&#10;private fun $NAME$(pageState: PageState) {&#10;$END$&#10;}" description="Create @Composable function with page state" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+</templateSet>

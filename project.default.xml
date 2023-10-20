@@ -1,0 +1,17 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+      <component name="WindowStateProjectService">
+        <state x="781" y="212" key="SettingsEditor" timestamp="1693816793536">
+          <screen x="0" y="0" width="2560" height="1392" />
+        </state>
+        <state x="781" y="212" key="SettingsEditor/0.0.2560.1392/2560.0.1920.1032" timestamp="1693816793536" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

@@ -1,0 +1,6 @@
+<application>
+  <component name="AndroidLogcatSettings">
+    <option name="bufferSize" value="4194304" />
+    <option name="filterHistoryAutocomplete" value="true" />
+  </component>
+</application>
