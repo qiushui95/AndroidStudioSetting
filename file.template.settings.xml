@@ -15,7 +15,7 @@
       <template name="ComposeMvi.kt.child.3.kt" file-name="vm/${NAME}Intent" reformat="true" live-template-enabled="false" />
       <template name="ComposeMvi.kt.child.4.kt" file-name="vm/${NAME}Action" reformat="true" live-template-enabled="false" />
       <template name="ComposeMvi.kt.child.5.kt" file-name="vm/${NAME}VM" reformat="true" live-template-enabled="false" />
-      <template name="ComposePaging.kt" reformat="true" live-template-enabled="false">
+      <template name="ComposePaging.kt" file-name="vm/${NAME}US" reformat="true" live-template-enabled="false">
         <template name="ComposePaging.kt.child.0.kt" file-name="ui/${NAME}Page" reformat="true" live-template-enabled="false" />
         <template name="ComposePaging.kt.child.1.kt" file-name="${NAME}Activity" reformat="true" live-template-enabled="false" />
         <template name="ComposePaging.kt.child.2.kt" file-name="${NAME}Dialog" reformat="true" live-template-enabled="false" />
