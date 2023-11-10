@@ -29,7 +29,8 @@
       <template name="ComposePaging.kt.child.3.kt" file-name="vm/${NAME}Intent" reformat="true" live-template-enabled="false" />
       <template name="ComposePaging.kt.child.4.kt" file-name="vm/${NAME}Action" reformat="true" live-template-enabled="false" />
       <template name="ComposePaging.kt.child.5.kt" file-name="vm/${NAME}VM" reformat="true" live-template-enabled="false" />
-      <template name="PageArgs.kt .kt" file-name="${NAME}Args" reformat="true" live-template-enabled="false" />
+      <template name="DialogArgs.kt" file-name="${NAME}DialogArgs" reformat="true" live-template-enabled="false" />
+      <template name="PageArgs.kt" file-name="${NAME}Args" reformat="true" live-template-enabled="false" />
     </default_templates>
   </component>
 </application>
