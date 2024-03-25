@@ -1,0 +1,19 @@
+<templateSet group="AndroidCompose">
+  <template name="compstate" value="@androidx.compose.runtime.Composable&#10;private fun CP$NAME$(pageState: PageState) {&#10;$END$&#10;}" description="Create @Composable function with page state" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="comp" value="@androidx.compose.runtime.Composable&#10;private fun CP$NAME$() {&#10;$END$&#10;}" description="Create @Composable function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="remstate" value="val $NAME$ =remember(pageState) {&#10;        derivedStateOf {pageState$END$ }&#10;}" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
