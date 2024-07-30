@@ -2,18 +2,6 @@
   <component name="BitRates">
     <option name="bitRateTrackers">
       <map>
-        <entry key="Xiaomi|M2011K2C|arm64-v8a|33">
-          <value>
-            <BitRateTracker>
-              <candidates>
-                <CandidateBitRate>
-                  <option name="bitRate" value="5000000" />
-                  <option name="score" value="110" />
-                </CandidateBitRate>
-              </candidates>
-            </BitRateTracker>
-          </value>
-        </entry>
         <entry key="samsung|SM-F9360|arm64-v8a|34">
           <value>
             <BitRateTracker>
