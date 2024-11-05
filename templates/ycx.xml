@@ -10,12 +10,17 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ycxstate" value="val State =remember(pageState) {&#10;        derivedStateOf {pageState$END$ }&#10;}" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+  <template name="ycxstate" value="val State =remember(pageState) {&#10;        derivedStateOf {pageState.uiInfoState.value$END$ }&#10;}" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ycxshowstate" value="val showState =remember($END$) {&#10;       mutableStateOf(false)&#10;}" description="创建一个返回弹窗ShowState的remember函数" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ycxvalue" value="val value =remember(pageState) {&#10;        derivedStateOf {pageState.uiInfoState.value$END$ }&#10;}.value" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
