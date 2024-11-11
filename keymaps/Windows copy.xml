@@ -8,9 +8,6 @@
   <action id="OpenInlineChatAction">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
-  <action id="RebuildGradleProject">
-    <keyboard-shortcut first-keystroke="shift ctrl alt f9" />
-  </action>
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
