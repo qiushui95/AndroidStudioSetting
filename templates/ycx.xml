@@ -20,7 +20,7 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ycxvalue" value="val value =remember(pageState) {&#10;        derivedStateOf {pageState.uiInfoState.value$END$ }&#10;}.value" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+  <template name="ycxvalue" value="val $END$ =remember(pageState) {&#10;        derivedStateOf {pageState.uiInfoState.value.$END$ }&#10;}.value" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
