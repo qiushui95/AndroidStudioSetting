@@ -20,9 +20,9 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ycxvalue" value="val $varName$ = remember(pageState) {&#10;    derivedStateOf { pageState.uiInfoState.value.$START$$varName$ }&#10;}.value$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
-    <variable name="varName" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="ycxvalue" value="val $varNameVal$ = remember(pageState) {&#10;    derivedStateOf { pageState.uiInfoState.value.$varName$ }&#10;}.value$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+    <variable name="varName" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="varNameVal" expression="varName" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
