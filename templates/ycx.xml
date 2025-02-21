@@ -5,7 +5,7 @@
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="ycxrequester" value="val focusRequester = remember {&#10;      Focus$END$Requester()&#10;}" description="创建一个返回FocusRequester的remember函数体" toReformat="true" toShortenFQNames="true">
+  <template name="ycxrequester" value="val focusRequester = remember { FocusRequester() }$END$" description="创建一个返回FocusRequester的remember函数体" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
