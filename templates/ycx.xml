@@ -10,35 +10,30 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ycxstate" value="val $nameVal$State =remember(pageState) {&#10;        derivedStateOf {pageState.uiInfoState.value.$name$ }&#10;}$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+  <template name="ycxstate" value="val $nameVal$State =remember(pageState) {&#10;        derivedStateOf {pageState.uiInfoState.value.$name$ }&#10;}&#10;$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
     <variable name="name" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <variable name="nameVal" expression="name" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ycxshowstate" value="val showState =remember($END$) {&#10;       mutableStateOf(false)&#10;}" description="创建一个返回弹窗ShowState的remember函数" toReformat="true" toShortenFQNames="true">
+  <template name="ycxshowstate" value="val showState =remember($value$) {mutableStateOf(false) }&#10;$END$" description="创建一个返回弹窗ShowState的remember函数" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ycxvalue" value="val $varNameVal$ = remember(pageState) {&#10;    derivedStateOf { pageState.uiInfoState.value.$varName$ }&#10;}.value$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+  <template name="ycxvalue" value="val $varNameVal$ = remember(pageState) {&#10;    derivedStateOf { pageState.uiInfoState.value.$varName$ }&#10;}.value&#10;$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
     <variable name="varName" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <variable name="varNameVal" expression="varName" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ycxItemInfo" value="private val Local$Name$ItemInfo = compositionLocal&lt;$Name$ItemInfo&gt;()&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ycxItemInfo" value="private val Local$Name$ItemInfo = compositionLocal&lt;$Name$ItemInfo&gt;()&#10;&#10;&#10;@Composable&#10;private fun Local$Name$ItemInfoProvider(itemInfo: $Name$ItemInfo, content: @Composable () -&gt; Unit) {&#10;    CompositionLocalProvider(Local$Name$ItemInfo provides itemInfo, content)&#10;}&#10;&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_TOPLEVEL" value="true" />
-    </context>
-  </template>
-  <template name="ycxItemInfoProvider" value="CompositionLocalProvider(Local$Name$ItemInfo provides it) {&#10;                CP$Name$ItemInfo()&#10;            }" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
