@@ -1,0 +1,36 @@
+<application>
+  <component name="BitRates">
+    <option name="bitRateTrackers">
+      <map>
+        <entry key="Xiaomi|M2011K2C|arm64-v8a|33">
+          <value>
+            <BitRateTracker>
+              <candidates>
+                <CandidateBitRate>
+                  <option name="bitRate" value="5000000" />
+                  <option name="score" value="620" />
+                </CandidateBitRate>
+                <CandidateBitRate>
+                  <option name="bitRate" value="2000000" />
+                  <option name="score" value="286" />
+                </CandidateBitRate>
+              </candidates>
+            </BitRateTracker>
+          </value>
+        </entry>
+        <entry key="samsung|SM-F9360|arm64-v8a|34">
+          <value>
+            <BitRateTracker>
+              <candidates>
+                <CandidateBitRate>
+                  <option name="bitRate" value="5000000" />
+                  <option name="score" value="334" />
+                </CandidateBitRate>
+              </candidates>
+            </BitRateTracker>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

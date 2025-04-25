@@ -1,0 +1,45 @@
+<templateSet group="ycx">
+  <template name="comp" value="@androidx.compose.runtime.Composable&#10;private fun CP$NAME$() {&#10;$END$&#10;}" description="Create @Composable function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="ycxrequester" value="val focusRequester = rememberFocusRequester()$END$" description="创建一个返回FocusRequester的remember函数体" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ycxstate" value="val $nameVal$State =remember(pageState) {&#10;        derivedStateOf {pageState.uiInfoState.value.$name$ }&#10;}&#10;$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="nameVal" expression="name" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ycxshowstate" value="val showState =remember($value$) {mutableStateOf(false) }&#10;$END$" description="创建一个返回弹窗ShowState的remember函数" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ycxvalue" value="val $varNameVal$ = remember(pageState) {&#10;    derivedStateOf { pageState.uiInfoState.value.$varName$ }&#10;}.value&#10;$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+    <variable name="varName" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="varNameVal" expression="varName" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ycxItemInfo" value="private val Local$Name$ItemInfo = compositionLocal&lt;$Name$ItemInfo&gt;()&#10;&#10;&#10;@Composable&#10;private fun Local$Name$ItemInfoProvider(itemInfo: $Name$ItemInfo, content: @Composable () -&gt; Unit) {&#10;    CompositionLocalProvider(Local$Name$ItemInfo provides itemInfo, content)&#10;}&#10;&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="ycxstateloading" value="val loadingState =remember(pageState) {&#10;        derivedStateOf {pageState.uiInfoState.value.$name$.isLoading }&#10;}&#10;$END$" description="Create remeber function with page state" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

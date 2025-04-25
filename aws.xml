@@ -1,0 +1,58 @@
+<application>
+  <component name="authManager">
+    <option name="ssoProfiles">
+      <list>
+        <ManagedSsoProfile>
+          <option name="scopes">
+            <list>
+              <option value="codewhisperer:conversations" />
+              <option value="codewhisperer:transformations" />
+              <option value="codewhisperer:taskassist" />
+              <option value="codewhisperer:completions" />
+              <option value="codewhisperer:analysis" />
+            </list>
+          </option>
+          <option name="ssoRegion" value="us-east-1" />
+          <option name="startUrl" value="https://view.awsapps.com/start" />
+        </ManagedSsoProfile>
+      </list>
+    </option>
+  </component>
+  <component name="aws">
+    <option name="autoUpdateFeatureNotificationShownOnce" value="true" />
+    <option name="promptedForTelemetry" value="true" />
+  </component>
+  <component name="codewhispererSettings">
+    <option name="value">
+      <map>
+        <entry key="IsIncludeCodeWithReference" value="true" />
+        <entry key="IsProjectContextEnabled" value="true" />
+        <entry key="IsProjectContextGpu" value="true" />
+        <entry key="IsTabAcceptPriorityNotificationShownOnce" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="codewhispererStates">
+    <option name="value">
+      <map>
+        <entry key="IsMonthlyQuotaForCodeScansExceeded" value="false" />
+        <entry key="IsFirstRestartAfterQInstall" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="connectionPinningManager">
+    <option name="pinnedConnections">
+      <map>
+        <entry key="aws.codewhisperer" value="sso;us-east-1;https://view.awsapps.com/start" />
+        <entry key="aws.q" value="sso;us-east-1;https://view.awsapps.com/start" />
+      </map>
+    </option>
+  </component>
+  <component name="meetQPage">
+    <option name="disclaimerAcknowledged" value="true" />
+    <option name="reinvent2024OnboardingCount" value="1" />
+  </component>
+  <component name="notificationEtag">
+    <option name="etag" value="&quot;3eb1f87f15ff45ce98e7109ce35d188a&quot;" />
+  </component>
+</application>

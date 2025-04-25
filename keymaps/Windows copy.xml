@@ -1,0 +1,27 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="NewAndroidVectorAsset">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="TriggerInlayCompletionAction">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
+  <action id="UpdateRunningApplication" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="cn.wind.action.NextAction">
+    <keyboard-shortcut first-keystroke="ctrl alt numpad3" />
+  </action>
+  <action id="cn.wind.action.PrevAction">
+    <keyboard-shortcut first-keystroke="ctrl alt numpad2" />
+  </action>
+</keymap>
